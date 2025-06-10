@@ -179,10 +179,10 @@ def main():
                         total = 0
                         encontrados = 0
 
-                        for c in cliente_obj.consumos:
-                            if not fecha_filtro or c.get("fecha") == fecha_filtro:
-                                print(f"{c.get('fecha', 'Sin fecha')} - {c['plato']} - ${c['monto']}")
-                                total += c["monto"]
+                        for consumo in cliente_obj.consumos:
+                            if not fecha_filtro or consumo.get("fecha") == fecha_filtro:
+                                print(f"{consumo.get('fecha', 'Sin fecha')} - {consumo['plato']} - ${consumo['monto']}")
+                                total += consumo["monto"]
                                 encontrados += 1
 
                         if encontrados:

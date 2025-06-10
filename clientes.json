@@ -1,0 +1,29 @@
+{
+    "clientes": [
+        {
+            "nombre": "Ma",
+            "apellido": "Ce",
+            "email": "ce@gmail.com",
+            "password": "$2b$12$vlwWGHh3JNJtHjgekwXsAOPfLHW4PVrsRpdPcME4y.9cbe8hqNWZa",
+            "password_plano": "1144",
+            "consumos": [
+                {
+                    "plato": "Pizza",
+                    "monto": 12000,
+                    "fecha": "2025-06-09"
+                },
+                {
+                    "plato": "Ensalada",
+                    "monto": 800,
+                    "fecha": "2025-06-09"
+                },
+                {
+                    "plato": "Postre",
+                    "monto": 900,
+                    "fecha": "2025-06-09"
+                }
+            ]
+        }
+    ],
+    "total_consumos": 13700
+}
